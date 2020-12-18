@@ -15,14 +15,14 @@ namespace SampleWebAppRHRAzureProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Rohit HR's page !!";
+            ViewBag.Message = "Rohit HR's page updated !!";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Rohit";
 
             return View();
         }
